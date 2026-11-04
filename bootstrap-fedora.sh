@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Step 0 for a virgin Fedora machine (Linux sibling of bootstrap-mac.sh). Needs NO clone:
-#   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/zeshanziya/bootstrap/main/bootstrap-fedora.sh)"
+#   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/zeshanziya/machine-bootstrap/main/bootstrap-fedora.sh)"
 #
 # Adds the 1Password rpm repo, installs 1Password + its CLI + git, and points
 # ssh at the 1Password SSH agent so bootstrap-repos.sh can clone over SSH.
@@ -46,5 +46,5 @@ echo
 echo "=== NEXT ==="
 echo "1. Open 1Password, sign in, then Settings > Developer: enable 'Integrate with 1Password CLI' and 'Use the SSH agent'."
 echo "2. Clone the repos (SSH via 1Password):"
-echo "   curl -fsSL https://raw.githubusercontent.com/zeshanziya/bootstrap/main/bootstrap-repos.sh | bash"
+echo "   curl -fsSL https://raw.githubusercontent.com/zeshanziya/machine-bootstrap/main/bootstrap-repos.sh | bash"
 echo "3. cd ~/Documents/work-area/personal/projects/claude-helpers && ./scripts/new-machine-fedora.sh"

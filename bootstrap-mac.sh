@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Step 0 for a virgin Mac — needs NO auth, NO clone. Run it first:
-#   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/zeshanziya/bootstrap/main/bootstrap-mac.sh)"
+#   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/zeshanziya/machine-bootstrap/main/bootstrap-mac.sh)"
 #
 # Installs Homebrew (which brings the Xcode Command Line Tools), persists brew
 # in ~/.zprofile so every new shell has it, and installs 1Password + its CLI
@@ -58,5 +58,5 @@ echo
 echo "=== NEXT ==="
 echo "1. Open 1Password, sign in, then Settings > Developer: enable 'Integrate with 1Password CLI' and 'Use the SSH agent'."
 echo "2. Clone the repos (SSH via 1Password):"
-echo "   curl -fsSL https://raw.githubusercontent.com/zeshanziya/bootstrap/main/bootstrap-repos.sh | bash"
+echo "   curl -fsSL https://raw.githubusercontent.com/zeshanziya/machine-bootstrap/main/bootstrap-repos.sh | bash"
 echo "3. cd ~/Documents/work-area/personal/projects/claude-helpers && ./scripts/new-machine.sh"

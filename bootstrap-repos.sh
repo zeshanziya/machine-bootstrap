@@ -2,7 +2,7 @@
 # Clone claude-helpers into the standard project layout (SSH).
 #
 # On a virgin Mac, run this before anything else is cloned:
-#   curl -fsSL https://raw.githubusercontent.com/zeshanziya/bootstrap/main/bootstrap-repos.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/zeshanziya/machine-bootstrap/main/bootstrap-repos.sh | bash
 # (Requires step 0 of mac-old/README.md first: Xcode CLT + 1Password SSH agent signed in.)
 #
 # Idempotent: existing clones are skipped.
